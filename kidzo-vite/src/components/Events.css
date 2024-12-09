@@ -1,0 +1,32 @@
+.site-section {
+      padding: 3rem 0;
+}
+.container{
+    width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.block-2.red {
+    background-color: #fd4d40;
+  }
+  .block-2 {
+    padding: 40px;
+    position: relative;
+    text-align: center;
+  }
+  .block-2 h2 { 
+    font-size: 25px;
+    font-family: cursive;
+    color: #fff;
+  }
+  .block-2 p {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  .block-2.yellow{
+    background-color: #fdb62f;
+  }
+  .block-2.teal{
+    background-color: #16c3b0;
+  }

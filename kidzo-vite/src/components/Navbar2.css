@@ -1,0 +1,23 @@
+
+.first{
+  display: flex;
+  justify-content: space-between;
+}
+.writing{
+  color: #441E6B;
+  font-family: cursive;
+  font-weight: 500;
+  font-size: 25px;
+  display: flex;
+  justify-content: space-evenly;
+  text-shadow: 2px 2px #fe9494;
+}
+
+.navigation-bar{
+  display: flex;
+  border-radius: 20px;
+  width: 70%;
+  height: 70px;
+  margin-left: 0;
+  margin-right: 15%;
+}

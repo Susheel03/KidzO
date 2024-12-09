@@ -1,0 +1,9 @@
+.writing{
+    color: #441E6B;
+    font-family: cursive;
+    font-weight: 500;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    text-shadow: 2px 2px #fe9494;
+}
