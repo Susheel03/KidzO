@@ -1,0 +1,57 @@
+.fullscreen{
+    background-image: linear-gradient(to left,#ffddff , #bd94ff);
+    height: 100vh;
+  }
+  /* In your CSS file (e.g., App.css or Games.css) */
+.age-check {
+  text-align: center;
+  color: purple; /* Set the text color to dark purple */
+}
+
+.age-check h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.age-check input {
+  padding: 10px;
+  border: 2px solid purple;
+  border-radius: 5px;
+  color: purple;
+  background-color: #f0f0f0;
+}
+
+.age-check button {
+  background-color: purple;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.fullscreen{
+  background-image: linear-gradient(to left,#ffddff , #bd94ff);
+  height: 100vh;
+}
+.quiz-options{
+  display: flex;
+  justify-content: space-evenly;
+}
+.quiz-options ul{
+  height: 100%;
+}
+.quiz-options li{
+  font-size: 30px;
+  padding: 20px;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  height: 100%;
+  width: 200px;
+}
+.quiz-options p{
+  text-align: center;
+  margin: 0px;
+}

@@ -1,0 +1,98 @@
+/* General resets */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+    
+  /* Main container for centering */
+  .quiz-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    max-width: 1200px; /* Make the entire container wider */
+    margin: 0 auto; /* Center horizontally */
+  }
+  
+  /* Header styling */
+  .header {
+    background-color: rgb(225, 141, 241);
+    color: white;
+    padding: 10px 40px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    width: fit-content;
+    border: 3px solid purple;
+  }
+  
+  /* Info container to align question and score inline with purple background */
+  .info-container {
+    background-color: rgb(225, 141, 241);
+    color: white;
+    padding: 20px 40px;
+    border-radius: 20px;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; /* Make the info container as wide as possible */
+    border: 3px solid purple;
+  }
+  
+  /* Style for question text */
+  .question-text {
+    font-size: 20px;
+    margin-right: 10px;
+    text-align: center;
+  }
+  
+  /* Style for displaying score */
+  .score-text {
+    font-size: 20px;
+  }
+  
+  /* Center the image choices */
+  .image-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px 0;
+    width: 100%;
+  }
+  
+  /* Style for choice images */
+  .choice-image {
+    width: 250px; /* Make the images larger */
+    height: 250px;
+    border: 5px solid darkpurple;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+  }
+  
+  .choice-image:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Feedback Text */
+  .feedback-text {
+    font-size: 20px;
+    color: green;
+    margin: 10px 0;
+  }
+  
+  /* End message styles */
+  .end-text {
+    background-color: rgb(225, 141, 241);
+    color: white;
+    padding: 20px 40px;
+    border-radius: 20px;
+    font-size: 20px;
+    margin-top: 20px;
+    width: 100%;
+  }
+  

@@ -1,25 +1,39 @@
-.fullscreen{
-    background-image: linear-gradient(to left,#ffddff , #bd94ff);
-    height: 100vh;
-  }
-  .quiz-options{
-    display: flex;
-    justify-content: space-evenly;
-  }
-  .quiz-options ul{
-    height: 100%;
-  }
-  .quiz-options li{
-    font-size: 30px;
-    padding: 20px;
-    margin-left: 30px;
-    margin-right: 30px;
-    margin-bottom: 0px;
-    margin-top: 0px;
-    height: 100%;
-    width: 200px;
-  }
-  .quiz-options p{
-    text-align: center;
-    margin: 0px;
-  }
+.fullscreen {
+  background-image: linear-gradient(to left, #ffddff, #bd94ff);
+  height: 100vh;
+}
+
+.quiz-options {
+  display: flex;
+  justify-content: space-evenly; /* Distribute the boxes evenly across the row */
+  align-items: center;
+  margin-top: 20px;
+}
+
+.quiz-options ul {
+  list-style: none; /* Remove bullet points */
+  padding: 0; /* Remove padding */
+  display: flex;
+  justify-content: space-between;
+  width: 100%; /* Make sure they fit the entire space */
+}
+
+.quiz-options li {
+  font-size: 16px; /* Smaller text */
+  padding: 10px;
+  margin: 0;
+  height: 60px; /* Set smaller height */
+  width: 120px; /* Set smaller width */
+  background-color: #fff;
+  border: 2px solid #bd94ff; /* Add a nice border for visibility */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+}
+
+.quiz-options p {
+  text-align: center;
+  margin: 0;
+  color: #555;
+}

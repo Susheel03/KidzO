@@ -18,13 +18,11 @@ function App() {
           </div>
         </SignedOut>
           <SignedIn>
-            {/* <Routes>
+            <Routes>
               <Route path="/" element={<Homepage />} />
-              <Route path='/games' element = {<Games/>} />
+              <Route path='/*' element = {<Games/>} />
               <Route path = '/quizzes/*' element = {<Quiz />} />
-                
-            </Routes> */}
-            <SignOutButton /> 
+            </Routes>
           </SignedIn>
       </header>
     </Router>
